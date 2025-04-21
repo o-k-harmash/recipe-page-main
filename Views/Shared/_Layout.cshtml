@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 💡 Favicon for browser tabs, ensures clarity across devices -->
+    <link rel="icon" type="image/png" sizes="32x32" href="~/assets/images/favicon-32x32.png" />
+
+    <!-- 🧼 Reset CSS to remove browser-specific default styles -->
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
+
+    <!-- 🎨 Custom styles for your main page -->
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+
+    <!-- 🌐 Preconnect to Google Fonts to speed up font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- ✍️ Fonts for headings (Young Serif) and body (Outfit) -->
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+        rel="stylesheet" />
+
+    <title>Frontend Mentor | Recipe page</title>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <!-- 🚀 Main content is rendered here -->
+            @RenderBody()
+        </main>
+
+        <!-- 🙌 Attribution footer with challenge link -->
+        <footer class="attribution">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/o-k-harmash/">o-k-harmash</a>.
+        </footer>
+    </div>
+
+</body>
+
+</html>
